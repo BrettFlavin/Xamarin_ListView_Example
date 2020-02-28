@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab2_LIstView.MainPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20,35,20,20">
+            <Label Text="Delicious Foods"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   VerticalOptions="StartAndExpand" 
+                   HorizontalOptions="StartAndExpand"/>
+
+            <ListView ItemsSource="{Binding FoodList}"
+                      HasUnevenRows="true">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{Binding ImageURL1}"            
+                                       Aspect="AspectFill"
+                                       HeightRequest="60"
+                                       WidthRequest="60" 
+                                       Grid.Row="0"
+                                       Grid.Column="0"/>
+
+                                <Image Source="{Binding ImageURL2}"            
+                                       Aspect="AspectFill"
+                                       HeightRequest="60"
+                                       WidthRequest="60"
+                                       Grid.Row="1"
+                                       Grid.Column="0"/>
+
+                                <Label Text="{Binding name}"
+                                       FontAttributes="Bold"
+                                       VerticalOptions="Center"
+                                       Grid.Row="0"
+                                       Grid.Column="1" />
+
+                                <Label Text="{Binding description}"
+                                       FontAttributes="Italic"
+                                       VerticalOptions="Center"
+                                       Grid.Row="1"
+                                       Grid.Column="1" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

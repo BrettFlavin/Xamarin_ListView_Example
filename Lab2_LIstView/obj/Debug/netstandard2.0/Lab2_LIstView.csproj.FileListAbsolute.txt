@@ -1,0 +1,13 @@
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\bin\Debug\netstandard2.0\Lab2_LIstView.deps.json
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\bin\Debug\netstandard2.0\Lab2_LIstView.dll
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\bin\Debug\netstandard2.0\ref\Lab2_LIstView.dll
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\bin\Debug\netstandard2.0\Lab2_LIstView.pdb
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\Lab2_LIstView.csprojAssemblyReference.cache
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\Lab2_LIstView.AssemblyInfoInputs.cache
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\Lab2_LIstView.AssemblyInfo.cs
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\Lab2_LIstView.dll
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\ref\Lab2_LIstView.dll
+C:\Users\Brett\Desktop\Lab2_LIstView\Lab2_LIstView\obj\Debug\netstandard2.0\Lab2_LIstView.pdb
