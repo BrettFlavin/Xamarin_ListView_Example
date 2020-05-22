@@ -9,10 +9,6 @@ using Xamarin.Forms;
 
 namespace Lab2_LIstView
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
-    [DesignTimeVisible(false)]
-
     public class Food {
         public string name { get; set; }
         public string description { get; set; }
@@ -20,12 +16,9 @@ namespace Lab2_LIstView
         public string ImageURL2 { get; set; }
     }
 
-
     public partial class MainPage : ContentPage
     {
-        public ObservableCollection<Food> FoodList { get; private set; }
-            
-          
+        public ObservableCollection<Food> FoodList { get; private set; }    
         
         public MainPage()
         {
